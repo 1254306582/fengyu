@@ -187,3 +187,14 @@ img:hover {
     font-size: 20px !important;
     font-weight: 300;
 }
+.container1 {
+    border: 1px solid #f0f0f0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand1 {
+    font-size: 20px;
+    padding-left: 100px;
+}
