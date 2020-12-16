@@ -12,10 +12,24 @@
     <title>安徽凤宇筑建筑工程有限公司</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
+
+
+    <!-- 新 Bootstrap4 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+ 
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+ 
+<!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+ 
+<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
    
 </head>
@@ -25,25 +39,8 @@
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">安徽凤宇筑建筑工程有限公司欢迎您</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#">联系电话： 05616062828</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+            <a class="navbar-brand"  style="margin-right: 500px" href="#">安徽凤宇筑建筑工程有限公司欢迎您</a>
+            <a href="#">联系电话： 05616062828</a>
         </div>
         <!-- /.container -->
     </nav>
@@ -84,7 +81,7 @@
     <div class="content-section-b">
       <div class="container">
           <div class="row">
-              <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+              <div class="col-lg-5 offset-lg-1 col-sm-push-6  col-sm-6">
                   <hr class="section-heading-spacer">
                   <div class="clearfix"></div>
                   <h2 class="section-heading">公司简介</h2>
@@ -117,7 +114,7 @@
                       各类管理人员和技术人员共计92人，其中一级建造师2人，二级建造师14人，高级职称2人，中级职称38人,初级职称22人，技工14人等。
                     </p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <div class="col-lg-5 offset-lg-2 col-sm-6">
                     <img width="460" height="350" class="img-responsive1" src="img/ipad.png" alt="">
                 </div>
             </div>
@@ -131,7 +128,7 @@
     <div class="content-section-b">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-5 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">经营范围简介</h2>
@@ -139,7 +136,7 @@
                       建筑工程施工总承包贰级、防水防腐保温工程专业承包贰级、建筑装修装饰工程专业承包贰级、建筑幕墙工程专业承包贰级、市政公用工程施工总承包叄级、公路工程施工总承包叄级、水利水电工程施工总承包叄级、电力工程施工总承包叁级、机电工程施工总承包叄级、钢结构工程专业承包贰级、古建筑工程专业承包叄级、环保工程专业承包叁级、地基基础工程专业承包叁级、城市及道路照明工程专业承包叁级、公路路面工程专业承包叁级、公路路基工程专业承包叁级、河湖整治工程专业承包叁级等多种经营为一体综合性施工企业。                    </p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                    <img width="460" height="350" class="img-responsive1" src="img/phones.png" alt="">
                 </div>
             </div>
 
@@ -152,14 +149,48 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-sm-6">
+                <div class="col-lg-11 col-sm-11">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">有爱的企业</h2>
                     <p class="lead">公司对当地的公益事业奉献微薄的力量，积极参与我市扶贫公益基金的捐款。 </p>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/gongyi.png" alt="">
+                <div>
+                    <!-- <img class="img-responsive" src="img/gongyi.png" alt=""> -->
+                    <div id="demo" class="carousel slide slidewrap" data-ride="carousel">
+ 
+                        <!-- 指示符 -->
+                        <ul class="carousel-indicators">
+                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                          <li data-target="#demo" data-slide-to="1"></li>
+                          <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+                       
+                        <!-- 轮播图片 -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img class="img-gongyi" src="img/gongyi.png" alt="">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="img-gongyi" src="img/gongyi2.png" alt="">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="img-gongyi" src="img/gongyi3.png" alt="">
+                          </div>
+                          <div class="carousel-item">
+                            <img class="img-gongyi" src="img/gongyi4.png" alt="">
+                          </div>
+                        </div>
+                       
+                        <!-- 左右切换按钮 -->
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                          <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                          <span class="carousel-control-next-icon"></span>
+                        </a>
+                       
+                      </div>
                 </div>
             </div>
 
