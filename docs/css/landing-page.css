@@ -31,7 +31,9 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=284357897,1421231879&fm=26&gp=0.jpg) no-repeat center center;
+    /* background: url(https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=284357897,1421231879&fm=26&gp=0.jpg) no-repeat center center; */
+
+    background: url(./../img/header.jpg) no-repeat center center;
     background-size: cover;
 }
 
